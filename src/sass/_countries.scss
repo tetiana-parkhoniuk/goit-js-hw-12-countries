@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900');
+
+$font: 'Lato', sans-serif;
+$big: 'Montserrat', sans-serif;
+
+$dark: #183059;
+$blue: #276fbf;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: $font;
+  min-height: 100vh;
+  height: auto;
+
+  color: $dark;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.country__input {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 50px;
+  width: 400px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: $blue;
+}
+
+.countries__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countries__list-item {
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+.country__card-title {
+  text-align: center;
+  font-family: $big;
+  font-size: 30px;
+}
+
+.country__card-info-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country__card-info {
+  margin-right: 50px;
+  font-size: 24px;
+}
+
+.country__card-list-item {
+  padding-bottom: 20px;
+}
+
+.card-text-wrapper {
+  font-weight: bold;
+}

@@ -58,7 +58,7 @@ function clearCountriesContainer() {
 export default function showNotification(text) {
     error({
         text: `${text}`,
-        delay: 2000,
+        delay: 1000,
         closeHover: true,
     })
 };

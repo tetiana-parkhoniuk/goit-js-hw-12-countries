@@ -11,13 +11,13 @@ function fetchCountries(searchQuery) {
                 return response.json();
             }
             return Promise.reject(
-            error({
-        text: `Please enter specific query!`,
-        delay: 2000,
-        closeHover: true,
-            })
+                error({
+                    text: `Please enter specific query!`,
+                    delay: 500,
+                    closeHover: true,
+                })
             );
-        })
+        });
 }
 
 // function fetchCountries(searchQuery) {

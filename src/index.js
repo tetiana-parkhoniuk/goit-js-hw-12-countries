@@ -29,7 +29,7 @@ function onInputChange(event) {
             } else if (response.length > 10) {
                 showNotification('Too many matches found. Please enter a more specific query!');
             } else if (response.length >= 2 && response.length <= 10) {
-                console.log('render list');
+
                 renderCountriesList(response);
             } else if (response.length === 1) {
                 renderCountryCard(response);
